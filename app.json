@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "LoginRegisterApp",
+    "slug": "LoginRegisterApp",
+    "platforms": ["ios", "android"],
+    "entryPoint": "./app",
+    "web": {
+      "build": {
+        "babel": {
+          "include": ["expo-router"]
+        }
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
